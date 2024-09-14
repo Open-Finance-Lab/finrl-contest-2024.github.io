@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ACM ICAIF 2023 FinRL Contest
+title: ACM ICAIF 2024 FinRL Contest
 email: finrlcontest@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Website for the ACM ICAIF 2023 FinRL Contest.
-baseurl: "/finrl-contest.github.io" # the subpath of your site, e.g. /blog
+  Website for the ACM ICAIF 2024 FinRL Contest.
+baseurl: "/finrl-contest-2024.github.io" # the subpath of your site, e.g. /blog
 url: "https://open-finance-lab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
