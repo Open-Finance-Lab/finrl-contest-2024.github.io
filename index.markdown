@@ -107,9 +107,6 @@ For each task, the final ranking of participants will be determined by a weighte
 
 The assessment of the reports will be conducted by invited experts and professionals. The judges will independently rate the data and model analysis, results and discussion, robustness and generalizability, innovation and creativity, organization and readability, each accounting for 20% of the qualitative assessment. 
 
-The final ranking will be determined by the combination of 60% quantitative and 40% qualitative assessment.
-
-
 ## Organizers
 
 ### Core Organizers
