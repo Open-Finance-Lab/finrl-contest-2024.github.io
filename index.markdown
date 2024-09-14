@@ -5,14 +5,14 @@ permalink: /
 ---
 <div style="text-align: center; display: flex; width: 100%; justify-content: space-evenly; align-items: center; gap: 1em; padding: 2em">
   <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/acm.png?raw=true" alt="ACM Logo">
-  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/columbia.jpeg?raw=true" alt="Columbia Logo">
+  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/columbiau.jpeg?raw=true" alt="Columbia Logo">
   <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/stevens.png?raw=true" alt="Stevens Logo">
   <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/rpi.png?raw=true" alt="RPI Logo">
   <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/Northwestern_University.png?raw=true" alt="NU Logo">
 </div>
 <div style="text-align: center; display: flex; width: 100%; justify-content: space-evenly; align-items: center; gap: 1em; padding: 2em">
-  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/finai.jpeg?raw=true" alt="FinAL logo">
-  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/finrl.png?raw=true" alt="FinRL Logo">
+  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/finai.png?raw=true" alt="FinAI logo">
+  <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/FinRL.png?raw=true" alt="FinRL Logo">
 </div>
 
 
