@@ -53,7 +53,6 @@ Table 1: List of state space, action space, and reward function
 
 <span style="color:blue;">(All deadlines are at 11:59pm EST on the specified date.)</span>
 
-
 Winners will be invited to attend the ACM ICAIF 2024 conference and have the opportunity to present their work at the conference.
 
 ## Tasks
