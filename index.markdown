@@ -36,8 +36,16 @@ With a deep reinforcement learning approach, market datasets are processed into 
 
 Table 1 lists the state spaces, action spaces, and reward functions of different FinRL applications. A state shows how an agent perceives a market situation. Facing a state, the agent can take an action from the action set, which may vary according to the financial tasks. Reward is an incentive mechanism for an agent to learn a better policy. Contestants will specify the state space, action space, and reward functions in the environment for both tasks.
 
-![table1](https://github.com/Open-Finance-Lab/ACM_ICAIF_2023/blob/main/web/app/assets/figures/table1.png?raw=true)
-<p align="center">Table 1: List of state space, action space, and reward function</p>
+<div style="display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap; text-align: center;">
+  <figure style="display: inline-block; margin: 10px; text-align: center;">
+    <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/table1.png?raw=true" alt="Table 1: List of state space, action space, and reward function" width="300"/>
+    <p>Table 1: List of state space, action space, and reward function</p>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; text-align: center;">
+    <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/vec_env.png" alt="Figure 2: Vectorized environment" width="200"/>
+    <p>Figure 2: Vectorized environment</p>
+  </figure>
+</div>
 
 ## Timeline
 * **Team Registration Begin**: September 17th, 2024
