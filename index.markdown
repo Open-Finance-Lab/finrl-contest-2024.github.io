@@ -42,7 +42,7 @@ Table 1 lists the state spaces, action spaces, and reward functions of different
     <p>Table 1: List of state space, action space, and reward function</p>
   </figure>
   <figure style="display: inline-block; margin: 10px; text-align: center;">
-    <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/vec_env.png?raw=true" alt="Figure 2: Vectorized environment" width="200"/>
+    <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/vec_env.png?raw=true" alt="Figure 2: Vectorized environment" width="210"/>
     <p>Figure 2: Vectorized environment</p>
   </figure>
 </div>
