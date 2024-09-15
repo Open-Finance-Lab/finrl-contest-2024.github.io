@@ -36,6 +36,8 @@ With a deep reinforcement learning approach, market datasets are processed into 
 
 Table 1 lists the state spaces, action spaces, and reward functions of different FinRL applications. A state shows how an agent perceives a market situation. Facing a state, the agent can take an action from the action set, which may vary according to the financial tasks. Reward is an incentive mechanism for an agent to learn a better policy. Contestants will specify the state space, action space, and reward functions in the environment for both tasks.
 
+Figure 2 shows the provided vectorized environment to support massively parallel simulataions. The vectorized environment manages multiple parallel sub-environments, each simulating different market scenarios and incorporating realistic market constraints.
+
 <div style="display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap; text-align: center;">
   <figure style="display: inline-block; margin: 10px; text-align: center;">
     <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/table1.png?raw=true" alt="Table 1: List of state space, action space, and reward function" width="300"/>
@@ -84,10 +86,10 @@ Each team should also submit a 1-2 page report with the [ACM sigconf template](h
 This task aims to enhance FinRL trading strategies by incorporating LLM-generated signals, integrating the advantages of FinRL and
 LLMs. participants are expected to use LLMs to generate valuable trading signals from structured data, including SEC 10-K, 10-Q, and XBRL filings. These signals are then integrated into the FinRL trading environment to enhance the decision-making of the trading agents.
 
-![figure2](https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/task_2.png?raw=true)
-<p align="center">Figure 2: Task 2 stock trading with LLM-generated signals<\p>
+![figure3](https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/task_2.png?raw=true)
+<p align="center">Figure 3: Task 2 stock trading with LLM-generated signals<\p>
 
-In this task, as shown in Fig 2, participants need to perform the stock trading task:
+In this task, as shown in Fig 3, participants need to perform the stock trading task:
 1. **Use LLMs to generate signals**. Participants will utilize LLMs to analyze SEC 10-K, 10-Q, and XBRL filings, assessing a company’s financial health, risk factors, and business performance, to generate valuable trading signals.
 2. **Integrate signals into FinRL**. These signals will be incorporated into the state of the FinRL environments. Participants should specify the state space, action space, and reward functions in the environment.
 3. **Perform stock trading with FinRL**. The trading agent will utilize this enriched state to make more informed decisions.
