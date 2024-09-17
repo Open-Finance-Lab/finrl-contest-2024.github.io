@@ -25,18 +25,18 @@ The FinRL contest is a competition that explores and evaluates the capability of
 We design two tasks to reflect these advancements: (1) Cryptocurrency trading with ensemble methods, and (2) Stock trading with LLM-generated signals. We welcome students, researchers, and engineers who are passionate about finance and machine learning. And we encourage the development of ensemble strategies, novel signals, and innovative algorithms that can adapt to changing market conditions and generate superior returns for investors.
 
 ## Data
-We have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, FinRL-Meta, as shown in Figure 1. Contestants are welcome to explore and use in the FinRL Contest.
+We have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta), as shown in Figure 1. Contestants are welcome to explore and use in the FinRL Contest.
 
 ![figure1](https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/FinRL_Meta_Data.png?raw=true)
 
 <p align="center">Figure 1: Market data sources of FinRL-Meta</p>
 
 ## Environment
-With a deep reinforcement learning approach, market datasets are processed into gym-style market environments. The market environment provided to participants is designed to enhance both the realism and efficiency of the simulation process.
+With a deep reinforcement learning approach, market datasets are processed into gym-style environments. The market environment provided to participants is designed to enhance both the realism and efficiency of the simulation process.
 
 Table 1 lists the state spaces, action spaces, and reward functions of different FinRL applications. A state shows how an agent perceives a market situation. Facing a state, the agent can take an action from the action set, which may vary according to the financial tasks. Reward is an incentive mechanism for an agent to learn a better policy. Contestants will specify the state space, action space, and reward functions in the environment for both tasks.
 
-Figure 2 shows the provided vectorized environment to support massively parallel simulataions. The vectorized environment manages multiple parallel sub-environments, each simulating different market scenarios and incorporating realistic market constraints.
+Figure 2 shows the provided vectorized environment to support massively parallel simulataions. It manages multiple parallel sub-environments, each simulating different market scenarios and incorporating realistic market constraints.
 
 <div style="display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap; text-align: center;">
   <figure style="display: inline-block; margin: 10px; text-align: center;">
@@ -50,7 +50,7 @@ Figure 2 shows the provided vectorized environment to support massively parallel
 </div>
 
 ## Timeline
-* **Team Registration Begin**: September 17th, 2024
+* **Team Registration Begin**: September 27th, 2024
 * **Traning Datasets and Baseline Solution Release**: September 27th, 2024
 * **Submission Open**: October 10th, 2024
 * **Solution Submission Deadline**: October 29th, 2024
@@ -71,23 +71,23 @@ Each team can choose to participate in one or both tasks. The prizes will be awa
 The starter kit and related resources will be released soon.
 
 ### Task I: Cryptocurrency Trading with Ensemble Learning
-This task aims to develop robust and effective trading agents for cryptocurrencies using ensemble methods. Participants are expected to to explore innovative ensemble methods for single cryptocurrency trading. They are also encouraged to harness the power of massively parallel simulations by utilizing the provided vectorized environments.
+This task aims to develop robust and effective trading agents for cryptocurrencies using ensemble methods. Participants are expected to explore innovative ensemble methods for single cryptocurrency trading. They are also encouraged to harness the power of massively parallel simulations by utilizing the provided vectorized environments.
 
 A dataset containing minute-level Limit Order Book (LOB) data for Bitcoin is provided. Contestants are free to apply various techniques to the data, design component models, and use innovative methods to increase the diversity of component models in the ensemble. 
 
 Then the contestants are required to:
 1. Specify the state space, action space, and reward functions in the environment.
-2. Ensure that the final ensemble model should be able to interact with the provided trading environment..
+2. Ensure that the final ensemble model should be able to interact with the provided trading environment.
 
-Each team should also submit a 1-2 page report with the [ACM sigconf template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) through Open Review. The title should start with “FinRL Contest 2024 Task I.”
+Participants need to submit a well-organized repository containing all scripts, models, and any custom libraries used to implement the solution. Each team should also submit a 1-2 page report with the [ACM sigconf template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) through Open Review. The title should start with “FinRL Contest 2024 Task I.”
 
 
 ### Task II: Stock Trading with LLM-generated Signals
 This task aims to enhance FinRL trading strategies by incorporating LLM-generated signals, integrating the advantages of FinRL and
-LLMs. participants are expected to use LLMs to generate valuable trading signals from structured data, including SEC 10-K, 10-Q, and XBRL filings. These signals are then integrated into the FinRL trading environment to enhance the decision-making of the trading agents.
+LLMs. 
 
 ![figure3](https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/task_2.png?raw=true)
-<p align="center">Figure 3: Task 2 stock trading with LLM-generated signals<\p>
+<p align="center">Figure 3: Task 2 stock trading with LLM-generated signals</p>
 
 In this task, as shown in Fig 3, participants need to perform the stock trading task:
 1. **Use LLMs to generate signals**. Participants will utilize LLMs to analyze SEC 10-K, 10-Q, and XBRL filings, assessing a company’s financial health, risk factors, and business performance, to generate valuable trading signals.
