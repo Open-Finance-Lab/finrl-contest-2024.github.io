@@ -67,8 +67,10 @@ Winners will be invited to attend the ACM ICAIF 2024 conference and have the opp
 Each team can choose to participate in one or both tasks. The prizes will be awarded for each task.
 
 
-### Starter Kit
-The starter kit and related resources will be released soon.
+### Tutorials and Starter Kit
+We provide some [tutorials](https://github.com/Open-Finance-Lab/FinRL_Contest_2024) for participants to learn FinRL.
+
+The starter kit will be released soon.
 
 ### Task I: Cryptocurrency Trading with Ensemble Learning
 This task aims to develop robust and effective trading agents for cryptocurrencies using ensemble methods. Participants are expected to explore innovative ensemble methods for single cryptocurrency trading. They are also encouraged to harness the power of massively parallel simulations by utilizing the provided vectorized environments.
