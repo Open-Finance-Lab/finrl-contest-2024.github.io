@@ -20,9 +20,9 @@ Financial Reinforcement Learning (FinRL) is an interdisciplinary field that appl
 
 The FinRL contest is a competition that explores and evaluates the capability of machine learning methods in finance. FinRL Contest 2024 introduces two tasks designed to address key challenges in FinRL. It features with: 
 1. **Ensemble Learning:** Tackling the challenge of policy instability in FinRL, **ensemble learning** can reduce the variance and bias associated with individual agents, leading to more reliable performance in volatile market conditions. To overcome the sampling bottleneck and accelerate the training of component agents, we also provide a vectorized environment that supports massively parallel simulations.
-2. **LLM-generated Signals:** With powerful natural language processing capabilities, LLMs can be used to analyze complex financial documents, such as SEC 10-K, 10-Q, and XBRL filings. In the FinRL Contest, we combine the strengths of LLMs and FinRL: LLMs generate valuable signals from textual analysis, while FinRL agents leverage these signals to improve trading strategies within dynamic market environments.
+2. **Reinforcement Learning from Market Feedback**: Large language models (LLMs) have been used to perform financial tasks such as sentiment analysis and trading. However, general-purpose LLMs are trained on extensive datasets from the internet, which may not capture the specific dynamics of financial markets. Therefore, we propose to fine-tune LLMs using reinforcement learning from market feedback. It will allow LLMs to learn from and adpat to the financial market behaviors.
 
-We design two tasks to reflect these advancements: (1) Cryptocurrency trading with ensemble methods, and (2) Stock trading with LLM-generated signals. We welcome students, researchers, and engineers who are passionate about finance and machine learning. And we encourage the development of ensemble strategies, novel signals, and innovative algorithms that can adapt to changing market conditions and generate superior returns for investors.
+We design two tasks to reflect these advancements: (1) Cryptocurrency trading with ensemble methods, and (2) (TBA). We welcome students, researchers, and engineers who are passionate about finance and machine learning. And we encourage the development of ensemble strategies, novel signals, and innovative algorithms that can adapt to changing market conditions and generate superior returns for investors.
 
 ## Data
 We have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta), as shown in Figure 1. Contestants are welcome to explore and use in the FinRL Contest.
@@ -84,21 +84,8 @@ Then the contestants are required to:
 Participants need to submit a well-organized repository containing all scripts, models, and any custom libraries used to implement the solution. Each team should also submit a 1-2 page report with the [ACM sigconf template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) through Open Review. The title should start with “FinRL Contest 2024 Task I.”
 
 
-### Task II: Stock Trading with LLM-generated Signals
-This task aims to enhance FinRL trading strategies by incorporating LLM-generated signals, integrating the advantages of FinRL and
-LLMs. 
-
-![figure3](https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/task_2.png?raw=true)
-<p align="center">Figure 3: Task 2 stock trading with LLM-generated signals</p>
-
-In this task, as shown in Fig 3, participants need to perform the stock trading task:
-1. **Use LLMs to generate signals**. Participants will utilize LLMs to analyze SEC 10-K, 10-Q, and XBRL filings, assessing a company’s financial health, risk factors, and business performance, to generate valuable trading signals.
-2. **Integrate signals into FinRL**. These signals will be incorporated into the state of the FinRL environments. Participants should specify the state space, action space, and reward functions in the environment.
-3. **Perform stock trading with FinRL**. The trading agent will utilize this enriched state to make more informed decisions.
-
-
-We provide the SEC 10-K, 10-Q, XBRL filings, and the OHLCV dataset for a list of stocks. Participants are permitted to use external datasets, such as news articles, to enhance their analysis. For a fair comparison, participants are required to use the same FinRL agent, specifically the PPO agent, and the same provided environment
-
+### Task II: TBA
+TBA
 
 Participants need to submit a well-organized repository containing all scripts, models, and any custom libraries used to implement the solution. The models should be easily loaded and tested. Each team should also submit a 1-2 page report with the [ACM sigconf template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) through Open Review. The title should start with “FinRL Contest 2024 Task II.”
 
