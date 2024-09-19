@@ -136,6 +136,7 @@ The assessment of the reports will be conducted by invited experts and professio
 | ![Jiechao Gao](https://github.com/Open-Finance-Lab/ACM_ICAIF_2023/blob/main/web/app/assets/staffphotos/advisors/jiechao_gao.jpeg?raw=true) | **Jiechao Gao** Ph.D., University of Virginia. His research interests include machine learning, reinforcement learning, federated learning algorithms and applications in distributed networks, cyberphysical systems and financial environments. He serves as a PC member and reviewer for NeurIPS, KDD, ICLR, AAAI, INFOCOM, IEEE Big Data, IEEE TNNLS, IEEE IoT Journal, etc. He organized FinRL Competition at ACM ICAIF 2023, UbiComp/ISWC 2024Workshop on Design with Autistic Children, and EAI SecureComm 2022 Workshop on S/P-IoT.|
 | ![Christina Dan Wang](https://github.com/Open-Finance-Lab/ACM_ICAIF_2023/blob/main/web/app/assets/staffphotos/advisors/dan_wang.jpeg?raw=true) | **Christina Dan Wang** Assistant Professor of Finance, NYU Shanghai; Global Network Assistant Professor, NYU. Prior to joining NYU Shanghai, Wang was an Assistant Professor in the Department of Statistics at Columbia University and a Postdoctoral Researcher in the Operations Research and Financial Engineering department and at the Bendheim Center for Finance at Princeton University.|
 
+
 ## Contact
 Contestants can communicate any questions on [Discord](https://discord.gg/a6ebcwPa).
 
