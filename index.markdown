@@ -21,7 +21,7 @@ Financial Reinforcement Learning (FinRL) is an interdisciplinary field that appl
 
 The FinRL contest is a competition that explores and evaluates the capability of machine learning methods in finance. FinRL Contest 2024 introduces two tasks designed to address key challenges in FinRL. It features with: 
 1. **Ensemble Learning:** Tackling the challenge of policy instability in FinRL, **ensemble learning** can reduce the variance and bias associated with individual agents, leading to more reliable performance in volatile market conditions. To overcome the sampling bottleneck and accelerate the training of component agents, we also provide a vectorized environment that supports massively parallel simulations.
-2. **Reinforcement Learning from Market Feedback (RLMF)**: Large language models (LLMs) have been used to perform financial tasks such as sentiment analysis and trading. However, general-purpose LLMs are trained on extensive datasets from the internet, which may not capture the specific dynamics of financial markets. Therefore, we propose to fine-tune LLMs using **Reinforcement Learning from Market Feedback**. Similar to Reinforcement Learning from Human Feedback (RLHF), RLMF utilizes the feedback from the financial market. It will allow LLMs to learn from and adpat to the financial market behaviors.
+2. **Reinforcement Learning from Market Feedback (RLMF)**: Large language models (LLMs) have been used to perform financial tasks, such as sentiment analysis and trading. However, general-purpose LLMs are trained on extensive datasets from the internet, which may not capture the specific dynamics of financial markets. Therefore, we propose to fine-tune LLMs using **Reinforcement Learning from Market Feedback**. Similar to Reinforcement Learning from Human Feedback (RLHF), RLMF utilizes the feedback from the financial market. It will allow LLMs to learn from and adapt to the financial market behaviors.
 
 We design two tasks to reflect these advancements: (1) Cryptocurrency trading with ensemble methods, and (2) Stock Movement Prediction with RLMF. We welcome students, researchers, and engineers who are passionate about finance and machine learning. And we encourage the development of ensemble strategies, novel signals, and innovative algorithms that can adapt to changing market conditions and generate superior returns for investors.
 
@@ -63,8 +63,8 @@ Figure 3 shows the provided vectorized environment to support massively parallel
 * **Submission Open**: October 10th, 2024
 * **Solution Submission Deadline**: October 29th, 2024
 * **Report Submission Deadline**: November 5th, 2024
-* **Winner Notification**: November 12th, 2023
-* **Winner Announcement**: November 14th ~ 17th, 2023
+* **Winner Notification**: November 12th, 2024
+* **Winner Announcement**: November 14th ~ 17th, 2024
 
 <span style="color:blue;">(All deadlines are at 11:59pm EST on the specified date.)</span>
 
