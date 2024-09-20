@@ -21,23 +21,30 @@ Financial Reinforcement Learning (FinRL) is an interdisciplinary field that appl
 
 The FinRL contest is a competition that explores and evaluates the capability of machine learning methods in finance. FinRL Contest 2024 introduces two tasks designed to address key challenges in FinRL. It features with: 
 1. **Ensemble Learning:** Tackling the challenge of policy instability in FinRL, **ensemble learning** can reduce the variance and bias associated with individual agents, leading to more reliable performance in volatile market conditions. To overcome the sampling bottleneck and accelerate the training of component agents, we also provide a vectorized environment that supports massively parallel simulations.
-2. **Reinforcement Learning from Market Feedback (RLMF)**: Large language models (LLMs) have been used to perform financial tasks such as sentiment analysis and trading. However, general-purpose LLMs are trained on extensive datasets from the internet, which may not capture the specific dynamics of financial markets. Therefore, we propose to fine-tune LLMs using **Reinforcement Learning from Market Feedback**. It will allow LLMs to learn from and adpat to the financial market behaviors.
+2. **Reinforcement Learning from Market Feedback (RLMF)**: Large language models (LLMs) have been used to perform financial tasks such as sentiment analysis and trading. However, general-purpose LLMs are trained on extensive datasets from the internet, which may not capture the specific dynamics of financial markets. Therefore, we propose to fine-tune LLMs using **Reinforcement Learning from Market Feedback**. Similar to Reinforcement Learning from Human Feedback (RLHF), RLMF utilizes the feedback from the financial market. It will allow LLMs to learn from and adpat to the financial market behaviors.
 
-We design two tasks to reflect these advancements: (1) Cryptocurrency trading with ensemble methods, and (2) (TBA). We welcome students, researchers, and engineers who are passionate about finance and machine learning. And we encourage the development of ensemble strategies, novel signals, and innovative algorithms that can adapt to changing market conditions and generate superior returns for investors.
+We design two tasks to reflect these advancements: (1) Cryptocurrency trading with ensemble methods, and (2) Stock Movement Prediction with RLMF. We welcome students, researchers, and engineers who are passionate about finance and machine learning. And we encourage the development of ensemble strategies, novel signals, and innovative algorithms that can adapt to changing market conditions and generate superior returns for investors.
 
 ## Data
-We have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta), as shown in Figure 1. Contestants are welcome to explore and use in the FinRL Contest.
+We have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta), as shown in Figure 1. In addition, in [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT), as shown in Figure 2, we have a variety of text data that assures comprehensive market coverage. Contestants are welcome to explore and use in the FinRL Contest.
 
-![figure1](https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/FinRL_Meta_Data.png?raw=true)
-
-<p align="center">Figure 1: Market data sources of FinRL-Meta</p>
+<div style="display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap; text-align: center;">
+  <figure style="display: inline-block; margin: 10px; text-align: center;">
+    <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/FinRL_Meta_Data.png?raw=true" alt="Figure 1: Market data sources of FinRL-Meta" width="300"/>
+    <p>Figure 1: FinRL-Meta market data sources</p>
+  </figure>
+  <figure style="display: inline-block; margin: 10px; text-align: center;">
+    <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/FinGPT_FinNLP_data_source.png?raw=true" alt="Figure 2: FinGPT-FinNLP data sources" width="460"/>
+    <p>Figure 2: FinGPT-FinNLP text data sources</p>
+  </figure>
+</div>
 
 ## Environment
 With a deep reinforcement learning approach, market datasets are processed into gym-style environments. The market environment provided to participants is designed to enhance both the realism and efficiency of the simulation process.
 
 Table 1 lists the state spaces, action spaces, and reward functions of different FinRL applications. A state shows how an agent perceives a market situation. Facing a state, the agent can take an action from the action set, which may vary according to the financial tasks. Reward is an incentive mechanism for an agent to learn a better policy. Contestants will specify the state space, action space, and reward functions in the environment for both tasks.
 
-Figure 2 shows the provided vectorized environment to support massively parallel simulataions. It manages multiple parallel sub-environments, each simulating different market scenarios and incorporating realistic market constraints.
+Figure 3 shows the provided vectorized environment to support massively parallel simulataions. It manages multiple parallel sub-environments, each simulating different market scenarios and incorporating realistic market constraints.
 
 <div style="display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap; text-align: center;">
   <figure style="display: inline-block; margin: 10px; text-align: center;">
@@ -45,8 +52,8 @@ Figure 2 shows the provided vectorized environment to support massively parallel
     <p>Table 1: List of state space, action space, and reward function</p>
   </figure>
   <figure style="display: inline-block; margin: 10px; text-align: center;">
-    <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/vec_env.png?raw=true" alt="Figure 2: Vectorized environment" width="210"/>
-    <p>Figure 2: Vectorized environment</p>
+    <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/vec_env.png?raw=true" alt="Figure 3: Vectorized environment" width="210"/>
+    <p>Figure 3: Vectorized environment</p>
   </figure>
 </div>
 
@@ -120,11 +127,11 @@ Participants need to submit their LLM, which should be easily loaded and tested.
 
 For each task, the final ranking of participants will be determined by a weighted combination of model evaluation and report assessment, with weights of 60% and 40% respectively.
 
-**Model evaluation** 
+**Model evaluation**:
 * Task 1: the geometric mean of the rankings of cumulative return, Sharpe ratio, and Max drawdown.
 * Task 2: the average of accuracy and F1 score.
 
-**Report assessment** of the report:
+**Report assessment**:
 
 The assessment of the reports will be conducted by invited experts and professionals. The judges will independently rate the data and model analysis, results and discussion, robustness and generalizability, innovation and creativity, organization and readability, each accounting for 20% of the qualitative assessment. 
 
