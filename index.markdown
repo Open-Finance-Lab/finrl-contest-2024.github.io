@@ -30,11 +30,11 @@ We have more than 30 market data sources to deal with different financial tasks.
 
 <div style="display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap; text-align: center;">
   <figure style="display: inline-block; margin: 10px; text-align: center;">
-    <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/FinRL_Meta_Data.png?raw=true" alt="Figure 1: Market data sources of FinRL-Meta" width="300"/>
+    <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/FinRL_Meta_Data.png?raw=true" alt="Figure 1: Market data sources of FinRL-Meta" width="500"/>
     <p>Figure 1: FinRL-Meta market data sources</p>
   </figure>
   <figure style="display: inline-block; margin: 10px; text-align: center;">
-    <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/FinGPT_FinNLP_data_source.png?raw=true" alt="Figure 2: FinGPT-FinNLP data sources" width="460"/>
+    <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/FinGPT_FinNLP_data_source.png?raw=true" alt="Figure 2: FinGPT-FinNLP data sources" width="700"/>
     <p>Figure 2: FinGPT-FinNLP text data sources</p>
   </figure>
 </div>
