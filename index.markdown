@@ -11,8 +11,8 @@ permalink: /
   <img style="width: 20%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/Northwestern_University.png?raw=true" alt="NU Logo">
 </div>
 <div style="text-align: center; display: flex; width: 100%; justify-content: space-evenly; align-items: center; gap: 1em; padding: 2em">
-  <img style="width: 25%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/idea.jpeg?raw=true" alt="IDEA">
   <img style="width: 25%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/finai.png?raw=true" alt="FinAI logo">
+  <img style="width: 25%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/idea.jpeg?raw=true" alt="IDEA">
   <img style="width: 25%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/FinRL.png?raw=true" alt="FinRL Logo">
 </div>
 
