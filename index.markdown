@@ -111,7 +111,7 @@ An OHLCV dataset and a corresponding news dataset for a list of stocks are provi
 _"How will the stock price of {stock ticker} move after the release of this news: {news}. Select and return only one of the following answers {up, down, no change}. Answer: "_
 
 #### Requirements
-For a fair comparison, contestants should only use LLMs that do not exceed 8B.
+For a fair comparison, contestants should only use [Llama 3.1 8B Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct).
 
 #### Model Evaluation
 The performance of the LLM will be assessed by the following metrics:
