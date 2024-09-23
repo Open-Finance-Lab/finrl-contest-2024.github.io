@@ -64,7 +64,7 @@ Figure 3 shows the provided vectorized environment to support massively parallel
 * **Solution Submission Deadline**: October 29th, 2024
 * **Report Submission Deadline**: November 5th, 2024
 * **Winner Notification**: November 12th, 2024
-* **Winner Announcement**: November 14th - 17th, 2024
+* **Winner Announcement**: November 15th, 2024
 
 <span style="color:blue;">(All deadlines are at 11:59pm EST on the specified date.)</span>
 
