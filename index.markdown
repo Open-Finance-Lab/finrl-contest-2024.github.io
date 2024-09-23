@@ -21,9 +21,9 @@ Financial Reinforcement Learning (FinRL) is an interdisciplinary field that appl
 
 The FinRL contest is a competition that explores and evaluates the capability of machine learning methods in finance. FinRL Contest 2024 introduces two tasks designed to address key challenges in FinRL. It features with: 
 1. **Ensemble Learning:** Tackling the challenge of policy instability in FinRL, **ensemble learning** can reduce the variance and bias associated with individual agents, leading to more reliable performance in volatile market conditions. To overcome the sampling bottleneck and accelerate the training of component agents, we also provide a vectorized environment that supports massively parallel simulations.
-2. **Reinforcement Learning from Market Feedback (RLMF)**: Large language models (LLMs) have been used to perform financial tasks, such as sentiment analysis and trading. However, general-purpose LLMs are trained on extensive datasets from the internet, which may not capture the specific dynamics of financial markets. Therefore, we propose to fine-tune LLMs using **Reinforcement Learning from Market Feedback**. Similar to Reinforcement Learning from Human Feedback (RLHF), RLMF utilizes the feedback from the financial market. It will allow LLMs to learn from and adapt to financial market behaviors.
+2. **Reinforcement Learning from Market Feedback (RLMF)**: Although large language models (LLMs) have been used to perform financial tasks, such as sentiment analysis, general-purpose LLMs are trained on extensive datasets from the internet, which may not capture the specific dynamics of financial markets. There is a gap between general-purposed LLMs and financial market requirements. To fill this gap and align LLMs to financial markets, we propose to fine-tune LLMs using **Reinforcement Learning from Market Feedback**. Similar to Reinforcement Learning from Human Feedback (RLHF), RLMF utilizes the feedback from the financial market, which will allow LLMs to learn and become more adaptive to financial market behaviors.
 
-We design two tasks to reflect these advancements: (1) Cryptocurrency trading with ensemble methods, and (2) Stock Movement Prediction with RLMF. We welcome students, researchers, and engineers who are passionate about finance and machine learning. And we encourage the development of ensemble strategies, novel signals, and innovative algorithms that can adapt to changing market conditions and generate superior returns for investors.
+We design two tasks to reflect these advancements: (1) Cryptocurrency trading with ensemble methods, and (2) LLM-engineered signals with RLMF. We welcome students, researchers, and engineers who are passionate about finance and machine learning. And we encourage the development of ensemble strategies, novel signals, and innovative algorithms that can adapt to changing market conditions and generate superior returns for investors.
 
 ## Data
 We have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta), as shown in Figure 1. In addition, in [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT), as shown in Figure 2, we have a variety of text data that assures comprehensive market coverage. Contestants are welcome to explore and use in the FinRL Contest.
@@ -101,35 +101,38 @@ The performance of the model will be assessed by the following metrics:
 #### Submission
 Participants need to submit a well-organized repository containing all scripts, models, and any custom libraries used to implement the solution. Each team should also submit a 1-2 page report with the [ACM sigconf template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) through Open Review. The title should start with “FinRL Contest 2024 Task I.”
 
+### Task II: LLM-Engineered Signals with RLMF
+This task aims to develop LLMs that can generate and engineer effictive signals from news by using Reinforcement Learning from Market Feedback (RLMF). By incorporating market feedback in the fine-tuning process, LLMs can learn from and adapt to financial market behaviors.
 
-### Task II: Stock Movement Prediction with RLMF
-This task aims to develop LLMs that can analyze news to predict stock price movements by using Reinforcement Learning from Market Feedback. Contestants are expected to explore useful market feedback from market data and innovative reward models to fine-tune their LLMs. 
+In this task, the LLMs will be used to generate one specific type of signal (e.g., a sentiment score) based on the content of news. Contestants will develop models that leverage RLMF to adjust the signals based on the market feedback. Contestants are expected to explore useful market feedback from market data and innovative reward models to fine-tune their LLMs. 
 
 #### Dataset
-An OHLCV dataset and a corresponding news dataset for a list of stocks are provided. Contestants are free to use external datasets to deveop RLMF methods and fine-tune the LLMs. We will evaluate the LLM using the following prompt:
-
-_"How will the stock price of {stock ticker} move after the release of this news: {news}. Select and return only one of the following answers {up, down, no change}. Answer: "_
+An OHLCV dataset and a corresponding news dataset for a list of stocks are provided. Contestants are free to use external datasets to deveop RLMF methods and fine-tune the LLMs.
 
 #### Requirements
-For a fair comparison, contestants should only use [Llama 3.1 8B Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct).
+1. For a fair comparison, contestants should only use [Llama 3.1 8B Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct).
+2. Contestants can determine what signal to generate and engineer.
+3. Contestants should provide the prompt for their LLM, for example: _"What is the sentiment score of {stock ticker} after the release of this news: {news}. Give and only return the score in the range of [-1, 1]. Answer: "_
 
 #### Model Evaluation
-The performance of the LLM will be assessed by the following metrics:
-1. Accuracy. It is the ratio of accurately predicted stock movement to the total number of news tested.
-2. F1 Score: It is the harmonic mean of precision and recall:
-   $$F1 = \frac{2 \cdot Precision \cdot Recall}{Precision + Recall}$$
-   
+To assess the effectiveness of the signal engineered by the LLMs, we will apply the signal to a simple and practical trading strategy: 
+1. Buy the top 30 stocks with the highest signals on the day of the news release and sell them 5 days later.
+2. Short-sell the 30 stocks with the lowest signals on the day of the news release and cover the short position 5 days later.
+
+The initial cash is $1 million, which will be allocated equally to each trading day and each stock.
+
+The performance of the LLM will be assed by the cumulative returns. 
+
 #### Submission
-Participants need to submit their LLM, which should be easily loaded and tested. Each team should also submit a 1-2 page report with the [ACM sigconf template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) through Open Review. The title should start with “FinRL Contest 2024 Task II.”
+Participants need to submit the prompt and their LLM , which should be easily loaded and tested. Each team should also submit a 1-2 page report with the [ACM sigconf template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) through Open Review. The title should start with “FinRL Contest 2024 Task II.”
 
 
 ## Evaluation
-
 For each task, the final ranking of participants will be determined by a weighted combination of model evaluation and report assessment, with weights of 60% and 40% respectively.
 
 **Model evaluation**:
 * Task 1: the geometric mean of the rankings of cumulative return, Sharpe ratio, and Max drawdown.
-* Task 2: the average of accuracy and F1 score.
+* Task 2: the cumulative return.
 
 **Report assessment**:
 
