@@ -59,7 +59,7 @@ Figure 3 shows the provided vectorized environment to support massively parallel
 
 ## Timeline
 * **Team Registration Begin**: September 27th, 2024
-* **Traning Datasets and Baseline Solution Release**: September 27th, 2024
+* **Traning Datasets and Baseline Solution Release**: September 30th, 2024
 * **Submission Open**: October 10th, 2024
 * **Solution Submission Deadline**: October 29th, 2024
 * **Report Submission Deadline**: November 5th, 2024
