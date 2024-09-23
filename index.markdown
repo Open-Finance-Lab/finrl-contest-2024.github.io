@@ -104,7 +104,7 @@ Participants need to submit a well-organized repository containing all scripts, 
 ### Task II: LLM-Engineered Signals with RLMF
 This task aims to develop LLMs that can generate and engineer effictive signals from news by using Reinforcement Learning from Market Feedback (RLMF). By incorporating market feedback in the fine-tuning process, LLMs can learn from and adapt to financial market behaviors.
 
-In this task, the LLM will be used to generate one specific type of signal (e.g., a sentiment score) based on the content of news. Contestants will develop models that leverage RLMF to adjust the signals based on the market feedback. Contestants are expected to explore useful market feedback from market data and innovative reward models to fine-tune their LLMs. 
+In this task, the LLM will be used to generate one type of signal (e.g., a sentiment score) based on the content of news. Contestants will develop models that leverage RLMF to adjust the signals based on the market feedback. Contestants are expected to explore useful market feedback from market data and innovative reward models to fine-tune their LLMs. 
 
 #### Dataset
 An OHLCV dataset and a corresponding news dataset for a list of stocks are provided. Contestants are free to use external datasets to deveop RLMF methods and fine-tune the LLMs.
