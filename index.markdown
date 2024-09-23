@@ -104,7 +104,7 @@ Participants need to submit a well-organized repository containing all scripts, 
 ### Task II: LLM-Engineered Signals with RLMF
 This task aims to develop LLMs that can generate and engineer effictive signals from news by using Reinforcement Learning from Market Feedback (RLMF). By incorporating market feedback in the fine-tuning process, LLMs can learn from and adapt to financial market behaviors.
 
-In this task, the LLMs will be used to generate one specific type of signal (e.g., a sentiment score) based on the content of news. Contestants will develop models that leverage RLMF to adjust the signals based on the market feedback. Contestants are expected to explore useful market feedback from market data and innovative reward models to fine-tune their LLMs. 
+In this task, the LLM will be used to generate one specific type of signal (e.g., a sentiment score) based on the content of news. Contestants will develop models that leverage RLMF to adjust the signals based on the market feedback. Contestants are expected to explore useful market feedback from market data and innovative reward models to fine-tune their LLMs. 
 
 #### Dataset
 An OHLCV dataset and a corresponding news dataset for a list of stocks are provided. Contestants are free to use external datasets to deveop RLMF methods and fine-tune the LLMs.
@@ -112,7 +112,7 @@ An OHLCV dataset and a corresponding news dataset for a list of stocks are provi
 #### Requirements
 1. For a fair comparison, contestants should only use [Llama 3.1 8B Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct).
 2. Contestants can determine what signal to generate and engineer.
-3. Contestants should provide the prompt for their LLM, for example: _"What is the sentiment score of {stock ticker} after the release of this news: {news}. Give and only return the score in the range of [-1, 1]. Answer: "_
+3. Contestants should provide the prompt for their LLM. For example, _"What is the sentiment score of {stock ticker} after the release of this news: {news}. Give and only return the score in the range of [-1, 1]. Answer: "_
 
 #### Model Evaluation
 To assess the effectiveness of the signal engineered by the LLMs, we will apply the signal to a simple and practical trading strategy: 
@@ -121,7 +121,7 @@ To assess the effectiveness of the signal engineered by the LLMs, we will apply 
 
 The initial cash is $1 million, which will be allocated equally to each trading day and each stock.
 
-The performance of the LLM will be assed by the cumulative returns. 
+The performance will be assessed by the cumulative returns. 
 
 #### Submission
 Participants need to submit the prompt and their LLM , which should be easily loaded and tested. Each team should also submit a 1-2 page report with the [ACM sigconf template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) through Open Review. The title should start with “FinRL Contest 2024 Task II.”
