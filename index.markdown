@@ -25,7 +25,7 @@ The FinRL contest is a competition that explores and evaluates the capability of
 We design two tasks to reflect these advancements: (1) Cryptocurrency trading with ensemble methods, and (2) LLM-engineered signals with RLMF. We welcome students, researchers, and engineers who are passionate about finance and machine learning. And we encourage the development of ensemble strategies, novel signals, and innovative algorithms that can adapt to changing market conditions and generate superior returns for investors.
 
 ## Data
-We have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta), as shown in Figure 1. In addition, in [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT), as shown in Figure 2, we have a variety of text data that assures comprehensive market coverage. Contestants are welcome to explore and use in the FinRL Contest.
+We have more than 30 market data sources to deal with different financial tasks. We hold the data APIs and sample market environments in an open-source repository, [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta), as shown in Figure 1. In addition, in [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT), as shown in Figure 2, we have a variety of financial data sources that assures comprehensive market coverage. Contestants are welcome to explore and use in the FinRL Contest.
 
 <div style="display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap; text-align: center;">
   <figure style="display: inline-block; margin: 10px; text-align: center;">
@@ -33,8 +33,8 @@ We have more than 30 market data sources to deal with different financial tasks.
     <p>Figure 1: FinRL-Meta market data sources</p>
   </figure>
   <figure style="display: inline-block; margin: 10px; text-align: center;">
-    <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/FinGPT_FinNLP_data_source.png?raw=true" alt="Figure 2: FinGPT-FinNLP data sources" width="700"/>
-    <p>Figure 2: FinGPT-FinNLP text data sources</p>
+    <img src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/pictures/fingpt_data_sources.jpg?raw=true" alt="Figure 2: FinGPT-FinNLP data sources" width="800"/>
+    <p>Figure 2: Financial data sources for FinGPT</p>
   </figure>
 </div>
 
