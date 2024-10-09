@@ -164,6 +164,6 @@ The assessment of the reports will be conducted by invited experts and professio
 
 
 ## Contact
-Contestants can communicate any questions on [Discord](https://discord.gg/a6ebcwPa).
+Contestants can communicate any questions on [Discord](https://discord.gg/RNYsEwcXVj).
 
 Contact email: [finrlcontest@gmail.com](mailto:finrlcontest@gmail.com)
