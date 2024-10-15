@@ -58,7 +58,7 @@ Figure 3 shows the provided vectorized environment to support massively parallel
 
 ## Timeline
 * **Team Registration Begin**: October 6th, 2024
-* **Starter-Kit Release**: October 14th, 2024
+* **Starter-Kit Release**: October 15th, 2024
 * **Submission Open**: October 16th, 2024
 * **Solution Submission Deadline**: November 3rd, 2024
 * **Report Submission Deadline**: November 7th, 2024
