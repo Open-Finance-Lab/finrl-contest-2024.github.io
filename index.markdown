@@ -115,8 +115,8 @@ An OHLCV dataset and a corresponding news dataset for a list of stocks are provi
 
 #### Model Evaluation
 To assess the effectiveness of the signal engineered by the LLMs, we will apply the signal to a simple and practical trading strategy: 
-1. Buy the top 5 stocks with the highest signals on the day of the news release and sell them 5 days later.
-2. Short-sell the 5 stocks with the lowest signals on the day of the news release and cover the short position 5 days later.
+1. Buy the top 3 stocks with the highest signals on the day of the news release and sell them 3 days later.
+2. Short-sell the 3 stocks with the lowest signals on the day of the news release and cover the short position 3 days later.
 
 The initial cash is $1 million, which will be allocated equally to each trading day and each stock.
 
