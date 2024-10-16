@@ -109,7 +109,7 @@ In this task, the LLM will be used to generate one type of signal (e.g., a senti
 An OHLCV dataset and a corresponding news dataset for a list of stocks are provided. Contestants are free to use external datasets to deveop RLMF methods and fine-tune the LLMs.
 
 #### Requirements
-1. For a fair comparison, contestants should only use [Llama 3.1 8B Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct).
+1. Contestants should use the LLM that can be loaded with huggingface and can do inference on 20GB GPU.
 2. Contestants can determine what signal to generate and engineer.
 3. Contestants should provide the prompt for their LLM. For example, _"What is the sentiment score of {stock ticker} after the release of this news: {news}. Give and only return the score in the range of [-1, 1]. Answer: "_
 
