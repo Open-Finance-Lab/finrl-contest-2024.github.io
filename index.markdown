@@ -15,7 +15,8 @@ permalink: /
   <img style="width: 25%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/idea.jpeg?raw=true" alt="IDEA">
 </div>
 
-<span style="color:red;">Task 2 starter kit released [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2024/tree/main/Task_2_starter_kit)!</span>
+<span style="color:red;">Task 1 and 2 starter kits are released [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2024)!</span>
+
 
 Financial Reinforcement Learning (FinRL) is an interdisciplinary field that applies reinforcement learning to perform financial tasks. FinRL’s ability to adapt to changing market conditions makes it a powerful tool for developing strategies in various tasks, such as portfolio management, algorithmic trading, and option pricing.
 
@@ -78,7 +79,7 @@ Each team can choose to participate in one or both tasks. The prizes will be awa
 ### Tutorials and Starter Kit
 We provide some [tutorials](https://github.com/Open-Finance-Lab/FinRL_Contest_2024) for participants to learn FinRL.
 
-The starter kit will be released soon.
+The starter kits are released [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2024)
 
 ### Task I: Cryptocurrency Trading with Ensemble Learning
 This task aims to develop robust and effective trading agents for cryptocurrencies using ensemble methods. Participants are expected to explore innovative ensemble methods for single cryptocurrency trading. They are also encouraged to take advantage of the power of massively parallel simulations by utilizing the provided vectorized environments.
