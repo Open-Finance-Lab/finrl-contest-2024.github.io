@@ -88,6 +88,8 @@ This task aims to develop robust and effective trading agents for cryptocurrenci
 A dataset containing second-level Limit Order Book (LOB) data for Bitcoin is provided. Contestants are free to apply various techniques to the data, design component models, and use innovative methods to increase the diversity of component models in the ensemble. 
 
 #### Environments
+The initial cash should be $1 million.
+
 The contestants are required to:
 1. Specify the state space, action space, and reward functions in the environment.
 2. Ensure that the final ensemble model should be able to interact with the provided trading environment.
