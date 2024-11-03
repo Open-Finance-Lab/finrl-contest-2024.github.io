@@ -17,6 +17,7 @@ permalink: /
 
 #### **Annoucements**
 <span style="color:red;">The submission deadline has been extended to Nov 7th, 2024!</span>
+
 <span style="color:red;">Task 1 and 2 starter kits are released [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2024)!</span>
 
 
