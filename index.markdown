@@ -15,6 +15,8 @@ permalink: /
   <img style="width: 25%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/idea.jpeg?raw=true" alt="IDEA">
 </div>
 
+#### **Annoucements**
+<span style="color:red;">The submission deadline has been extended to Nov 7th, 2024!</span>
 <span style="color:red;">Task 1 and 2 starter kits are released [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2024)!</span>
 
 
@@ -62,7 +64,7 @@ Figure 3 shows the provided vectorized environment to support massively parallel
 * **Team Registration Begin**: October 6th, 2024
 * **Starter-Kit Release**: October 15th, 2024
 * **Submission Open**: October 20th, 2024
-* **Solution Submission Deadline**: November 3rd, 2024
+* **Solution Submission Deadline**: ~~November 3rd, 2024~~ <span style="color:red;">November 7th, 2023</span>
 * **Report Submission Deadline**: November 7th, 2024
 * **Winner Notification**: November 12th, 2024
 * **Winner Announcement**: November 15th, 2024
