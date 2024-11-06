@@ -105,7 +105,7 @@ The performance of the model will be assessed by the following metrics:
 3. Max drawdown. It is the portfolio’s largest percentage drop from a peak to a trough in a certain time period, which provides a measure of downside risk.
 
 #### Submission
-Participants need to submit a well-organized repository containing all scripts, models, and any custom libraries used to implement the solution. Each team should also submit a 1-2 page report with the [ACM sigconf template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) through Open Review. The title should start with “FinRL Contest 2024 Task I.”
+Participants need to submit a well-organized repository containing all scripts, models, and any custom libraries used to implement the solution. Each team should also submit a 1-2 page report with the [ACM sigconf template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) through [Open Review](https://openreview.net/group?id=ACM.org/ICAIF/2024/Competition/FinRL#tab-your-consoles). The title should start with “FinRL Contest 2024 Task I.”
 
 ### Task II: LLM-Engineered Signals with RLMF
 This task aims to develop LLMs that can generate and engineer effictive signals from news by using Reinforcement Learning from Market Feedback (RLMF). By incorporating market feedback in the fine-tuning process, LLMs can learn from and adapt to financial market behaviors.
@@ -133,7 +133,7 @@ The performance will be assessed by the following metrics:
 2. Win/loss ratio. It is calculated by dividing the number of winning trades by the number of losing trades over a trading period.
 
 #### Submission
-Participants need to submit the prompt and their LLM , which should be easily loaded and tested. Each team should also submit a 1-2 page report with the [ACM sigconf template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) through Open Review. The title should start with “FinRL Contest 2024 Task II.”
+Participants need to submit the prompt and their LLM , which should be easily loaded and tested. Each team should also submit a 1-2 page report with the [ACM sigconf template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) through [Open Review](https://openreview.net/group?id=ACM.org/ICAIF/2024/Competition/FinRL#tab-your-consoles). The title should start with “FinRL Contest 2024 Task II.”
 
 
 ## Evaluation
