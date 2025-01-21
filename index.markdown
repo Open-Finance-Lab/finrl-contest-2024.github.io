@@ -20,7 +20,7 @@ permalink: /
   <img style="width: 40%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/vatic.png?raw=true" alt="VATIC logo">
 </div>
 
-#### GitHub
+#### **GitHub**
 The starter kit and related resources are available at [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2024).
 
 
