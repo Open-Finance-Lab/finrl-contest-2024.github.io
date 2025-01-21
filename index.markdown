@@ -18,7 +18,7 @@ permalink: /
 #### **Thank You to Our Sponsors**
 <div style="text-align: center; display: flex; width: 100%; justify-content: space-evenly; align-items: center; gap: 1em; padding: 2em">
   <img style="width: 40%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/vatic.png?raw=true" alt="VATIC logo">
-
+</div>
 
 #### **Annoucements**
 <span style="color:red;">The submission deadline has been extended to Nov 7th, 2024, 23:59 EST!</span>
