@@ -24,12 +24,12 @@ permalink: /
 The starter kit and related resources are available at [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2024).
 
 
-#### **Annoucements**
-<span style="color:red;">The submission deadline has been extended to Nov 7th, 2024, 23:59 EST!</span>
+#### **All FinRL Contests**
+**FinRL Contest 2023**: [Contest Website](https://open-finance-lab.github.io/finrl-contest.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2023)
 
-<span style="color:red;">Task 1 and 2 starter kits are released [here](https://github.com/Open-Finance-Lab/FinRL_Contest_2024)!</span>
+**FinRL Contest 2024**: [Contest Website](https://open-finance-lab.github.io/finrl-contest-2024.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2024)
 
-
+## Introduction
 Financial Reinforcement Learning (FinRL) is an interdisciplinary field that applies reinforcement learning to perform financial tasks. FinRL’s ability to adapt to changing market conditions makes it a powerful tool for developing strategies in various tasks, such as portfolio management, algorithmic trading, and option pricing.
 
 The FinRL contest is a competition that explores and evaluates the capability of machine learning methods in finance. FinRL Contest 2024 introduces two tasks designed to address key challenges in FinRL. It features with: 
