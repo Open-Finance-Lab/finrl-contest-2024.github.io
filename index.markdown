@@ -20,14 +20,20 @@ permalink: /
   <img style="width: 40%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/vatic.png?raw=true" alt="VATIC logo">
 </div>
 
+## We're thrilled to announce **FinRL Contest 2025**!  Check out the contest [website](https://open-finance-lab.github.io/FinRL_Contest_2025/) and [GitHub](https://github.com/Open-Finance-Lab/FinRL_Contest_2025) for details! 
+
 #### **GitHub**
 The starter kit and related resources are available at [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2024).
 
 
 #### **All FinRL Contests**
-**FinRL Contest 2023**: [Contest Website](https://open-finance-lab.github.io/finrl-contest.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2023)
+
+**FinRL Contest 2025**: [Contest Website](https://open-finance-lab.github.io/FinRL_Contest_2025/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2025)
 
 **FinRL Contest 2024**: [Contest Website](https://open-finance-lab.github.io/finrl-contest-2024.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2024)
+
+**FinRL Contest 2023**: [Contest Website](https://open-finance-lab.github.io/finrl-contest.github.io/); [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2023)
+
 
 ## Introduction
 Financial Reinforcement Learning (FinRL) is an interdisciplinary field that applies reinforcement learning to perform financial tasks. FinRL’s ability to adapt to changing market conditions makes it a powerful tool for developing strategies in various tasks, such as portfolio management, algorithmic trading, and option pricing.
