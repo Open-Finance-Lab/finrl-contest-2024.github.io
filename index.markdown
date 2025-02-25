@@ -20,7 +20,7 @@ permalink: /
   <img style="width: 40%;" src="https://github.com/Open-Finance-Lab/finrl-contest-2024.github.io/blob/main/assets/logos/vatic.png?raw=true" alt="VATIC logo">
 </div>
 
-## We're thrilled to announce **FinRL Contest 2025**!  Check out the contest [website](https://open-finance-lab.github.io/FinRL_Contest_2025/) and [GitHub](https://github.com/Open-Finance-Lab/FinRL_Contest_2025) for details! 
+### We're thrilled to announce **FinRL Contest 2025**!  Check out the contest [website](https://open-finance-lab.github.io/FinRL_Contest_2025/) and [GitHub](https://github.com/Open-Finance-Lab/FinRL_Contest_2025) for details! 
 
 #### **GitHub**
 The starter kit and related resources are available at [Github](https://github.com/Open-Finance-Lab/FinRL_Contest_2024).
